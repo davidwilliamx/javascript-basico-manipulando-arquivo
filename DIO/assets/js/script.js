@@ -21,14 +21,6 @@ function decrement() {
     }
 }
 
-// document.getElementById('btn-decrement').addEventListener("click", clicou);
-// document.getElementById('btn-increment').addEventListener("click", clicou);
 
-// function clicou() {
-//     if (document.getElementById('btn-decrement')) {
-//         console
-//     } else {
-        
-//     }
-//     console.log("Clicou!!!");
-// }
+var btnDecrement = document.getElementById('btn-decrement').addEventListener("click", decrement);
+var btnIncrement = document.getElementById('btn-increment').addEventListener("click", increment);
